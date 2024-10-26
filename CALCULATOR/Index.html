@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flat Calculator</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <input type="text" class="textBox" readonly placeholder="00" />
+      <br />
+      <button onclick="Delete()">Del</button>
+      <button class="btn" onclick="showNumber('*')">X</button>
+      <button class="btn" onclick="showNumber('/')">/</button>
+      <button onclick="showNumberOne()">C</button>
+      <button class="btn" onclick="showNumber('-')">-</button>
+      <button onclick="showNumber('9')">9</button>
+      <button onclick="showNumber('8')">8</button>
+      <button onclick="showNumber('7')">7</button>
+      <button class="btn" onclick="showNumber('+')">+</button>
+      <button onclick="showNumber('6')">6</button>
+      <button onclick="showNumber('5')">5</button>
+      <button onclick="showNumber('4')">4</button>
+      <button class="btn" onclick="showResult()">=</button>
+      <button onclick="showNumber('3')">3</button>
+      <button onclick="showNumber('2')">2</button>
+      <button onclick="showNumber('1')">1</button>
+      <button onclick="showNumber('0')">0</button>
+      <button class="btn" onclick="showNumber('0')">.</button>
+      <button class="btn" onclick="showNumber('%')">%</button>
+      <button onclick="showNumber('00')">00</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
